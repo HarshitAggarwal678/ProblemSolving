@@ -10,15 +10,11 @@ void main()
     
     while(a[i]!='\0')
     {
-       // printf("%d",i);
-        //printf("%c",a[i]);
         i++;
     }
-    //printf("%d",i);
     for( k=(i-1);k>=0;k--)
     {   
         rev[j]=a[k];
-        //printf("%c",a[i]);
         j++;
     }
     rev[k]='\0';
